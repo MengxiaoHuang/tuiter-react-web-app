@@ -1,89 +1,134 @@
 
+.fa-ellipsis-h.override-bs{
+    border-radius: 25px;
+    background-color: #474c51;;
+    color: #939393;
+}
 
-.wd-outer {
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+}
+.search-cog .fa-cog {
+    color: #0d6efd;
+    font-size: 25px;
+}
+
+.gray-text{
+    color: lightslategray;
+    font-size: 15px;
+}
+
+.headline{
+    font-size: 14px;
+    font-weight: bold;
+    color: #9b9b9b;
+;
+}
+
+.certified{
+    font-size: 15px;
+    font-weight: bold;
+    color: #c9c9c9;
+}
+
+.header-img{
+    position: relative;
+}
+
+.text-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.tweet-row {
+    min-height: 15vh;
+}
+
+.tweet-image {
+    /*min-height: 5vw;*/
+    /*aspect-ratio: 1/1;*/
+    width: 100px;
+    height: 100%;
+    min-block-size: 80%;
+}
+
+.account-row {
+    min-height: 8vh;
+}
+
+.account-avatar {
+    /*min-height: 2vw;*/
+    width: 60px;
+    height: 100%;
+    /*aspect-ratio: 1/1;*/
+}
+
+
+
+/*override styles*/
+
+a.list-group-item{
+    background-color: black;
+    color:#c9c9c9;
+}
+
+.bg-dark-dark-gray{
+    background-color: #17181b;
+}
+
+.bg-black{
     background-color: black;
 }
-.wd-body{
-    /*background-color: black;*/
-    font-family: Arial, serif;
-    border-color: rgb(47, 51, 54);
-    border-style: solid;
-    margin-left: 16px;
-    margin-right: 16px;
-    overflow: auto;
-    padding: 16px;
+
+.font-darker-gray{
+    color: #474c51;
 }
 
-.wd-search-entity{
-    position: absolute;
-    left: 50px;
+.font-lighter-gray{
+    color: #939393;
 }
-.wd-search-twitter-input{
-    background-color: darkgray;
-    /* no change */
-    border-radius: 25px;
+
+a.nav-link{
+    color: #474c51;
+
+}
+.nav-link.active{
     border: none;
-    color: white;
-    padding: 5px 500px 5px 35px;
+    color: #c9c9c9 !important;
+
 }
-.wd-explore-settings{
-    color: rgba(26,125,188,255);
-    padding-right: 12px;
-    float:right;
-    font-size: x-large;
+.active{
+    background-color: black !important;
+    border: none;
+    font-weight: bolder;
 }
 
-
-.wd-card{
-    font-size: 15px;
-    padding: 16px;
-    width: 80px;
-    height: 12px;
-    float: left;
-    text-decoration-line: none;
-}
-.wd-selected-card{
-    color: rgb(29,161,242);
-    border-bottom-width: 20px;
-    border-bottom: rgb(29,161,242);
-    border-bottom-style: solid;
-}
-.wd-unselected-cards{
-    color: rgb(110, 118, 125);
-}
-.wd-float-done{
-    clear: both;
+.border{
+    border-color: #474c51 !important;
 }
 
-.wd-post{
-    padding: 16px;
-    border-style: solid;
-    border-width: thin;
-    border-color: rgb(47, 51, 54);
-    overflow:auto;
-}
-.wd-post-headline{
-    font-size: 16px;
-    color: white;
-}
-.wd-post-topic-tweets{
-    font-size: 13px;
-    color: rgb(110, 118, 125);
+.fas.fa-cog{
+    color: #c9c9c9;
 }
 
-.wd-post-author{
-    color: white;
-    font-size: 13px;
+.float-end.btn.btn-primary{
+    background-color: #f0f3f4 !important;
+    color: black !important;
+    border: none;
 }
-
-.wd-post-img{
-    float:right;
-    width: 100px;
-    height:100px;
-    border-radius: 15px;
-    object-fit: cover;
-    z-index: -1;
-}
-
-
 
